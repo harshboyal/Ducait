@@ -678,9 +678,24 @@ const users = [
 // decrement
 // reset
 
-const counter {
-    value : 0,
-    increment() {this.value++;},
-    decrement() {this.value--;},
-    reset() {this.value == 0;}
-};
+function createCounter() {
+    let value = 0; // private
+
+    return {
+        increment() {
+            value++;
+            return value;
+        },
+
+        decrement() {
+            value--;
+            return value;
+        },
+
+        reset() {
+            value = 0;
+            return value;
+        }
+    };
+}
+
