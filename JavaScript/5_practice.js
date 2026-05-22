@@ -707,42 +707,33 @@ function createCounter() {
 
 const studentManager = {
   students: [],
-
   addStudent(name, marks) {
     this.students.push({
       studentName: name,
       studentMarks: marks
     });
   },
-
   showStudents() {
     console.log(this.students);
   },
-
   getTopper() {
     let bestStudent = this.students[0];
-
     for (let i = 0; i < this.students.length; i++) {
       if (this.students[i].studentMarks > bestStudent.studentMarks) {
         bestStudent = this.students[i];
       }
     }
-
     console.log(bestStudent);
   },
-
   getPassedStudents() {
     let result = [];
-
     for (let i = 0; i < this.students.length; i++) {
       if (this.students[i].studentMarks >= 40) {
         result.push(this.students[i]);
       }
     }
-
     console.log(result);
   },
-
   getAverageMarks() {
     let sum = 0;
 
