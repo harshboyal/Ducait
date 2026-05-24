@@ -670,7 +670,6 @@ const users = [
 //   }
 // }
 
-
 // Create a function that returns another function
 // requirement:
 // private counter
@@ -678,9 +677,178 @@ const users = [
 // decrement
 // reset
 
-const counter {
-    value : 0,
-    increment() {this.value++;},
-    decrement() {this.value--;},
-    reset() {this.value == 0;}
-};
+// const counter {
+//     value : 0,
+//     increment() {this.value++;},
+//     decrement() {this.value--;},
+//     reset() {this.value == 0;}
+// };
+
+// count negative numbers in an array -> [-1,-2,-3,--4,-5]
+
+// let numbers = [-1, -2, -3, -4, -5];
+// let count = 0;
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] < 0) {
+//     count++;
+//   }
+// }
+// console.log("Negative numbers:", count);
+
+// Print numbers greater than average -> [10,20,30,40]
+
+// let numbers = [10, 20, 30, 40];
+
+// let sum = 0;
+
+// Find total sum
+//for (let i = 0; i < numbers.length; i++) {
+//  sum += numbers[i];
+// }
+
+// Find average
+// let average = sum / numbers.length;
+
+// console.log("Average:", average);
+
+// Print numbers greater than average
+// let numbers = [10, 20, 30, 40];
+
+// let sum = 0;
+
+// Find total sum
+// for (let i = 0; i < numbers.length; i++) {
+//  sum += numbers[i];
+// }
+
+// let average = sum / numbers.length;
+
+// console.log("Average:", average);
+
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > average) {
+//     console.log(numbers[i]);
+//   }
+// }
+
+// Create a function: getPassedStudents(marks)
+// Return only students with marks greater than or equal to 40
+
+// function getPassedStudents(marks) {
+//   let passed = [];
+
+//   for (let i = 0; i< marks.length; i++) {
+//     if ( marks[i] >= 40) {
+//       passed.push(marks[i]);
+//     }
+//   }
+//   return passed;
+// }
+// let result = getPassedStudents([25,40,55,32,80]);
+// console.log(result);
+
+// move all zeros to the end => [1,0,2,0,3,4,0]
+
+const arr = [1, 0, 2, 0, 3, 4, 0];
+
+const result = [];
+let zeroCount = 0;
+
+// Loop through array
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] !== 0) {
+    result.push(arr[i]);
+  } else {
+    zeroCount++;
+  }
+}
+
+// Add zeros at the end
+for (let i = 0; i < zeroCount; i++) {
+  result.push(0);
+}
+
+console.log(result);
+
+// 5. Create an obect studentManager
+// properties:
+// students: []
+// methods:
+// 1. addStudent(name,marks)
+// add student obect into array
+// 2. showStudents()
+// print all students
+// 3. getTopper()
+// Find student with highest marks using loop
+// 4. getPassedStudents()
+// Return students whose marks are greater than or equal to 40.
+// 5. getAverageMarks()
+// calculate average marks of all students.
+
+// const studentManager = {
+//   students: [],
+
+//   // Add student
+//   addStudent(name, marks) {
+//     this.students.push({
+//       name: name,
+//       marks: marks,
+//     });
+//   },
+
+//   // Show all students
+//   showStudents() {
+//     console.log(this.students);
+//   },
+
+//   // Find topper
+//   getTopper() {
+//     let topper = this.students[0];
+
+//     for (let i = 1; i < this.students.length; i++) {
+//       if (this.students[i].marks > topper.marks) {
+//         topper = this.students[i];
+//       }
+//     }
+
+//     return topper;
+//   },
+
+//   // Get passed students
+//   getPassedStudents() {
+//     let passed = [];
+
+//     for (let i = 0; i < this.students.length; i++) {
+//       if (this.students[i].marks >= 40) {
+//         passed.push(this.students[i]);
+//       }
+//     }
+
+//     return passed;
+//   },
+
+//   // Calculate average marks
+//   getAverageMarks() {
+//     let total = 0;
+
+//     for (let i = 0; i < this.students.length; i++) {
+//       total += this.students[i].marks;
+//     }
+
+//     return total / this.students.length;
+//   },
+// };
+
+// // Add students
+// studentManager.addStudent("Harsh", 85);
+// studentManager.addStudent("Rahul", 35);
+// studentManager.addStudent("Aman", 70);
+
+// // Test methods
+// studentManager.showStudents();
+
+// console.log("Topper:", studentManager.getTopper());
+
+// console.log("Passed Students:", studentManager.getPassedStudents());
+
+// console.log("Average Marks:", studentManager.getAverageMarks());

@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "bd2653d49f03e171",
+    "id": "8270bd6b7f667bcb",
     "type": "split",
     "children": [
       {
-        "id": "f85ff2bb0496802a",
+        "id": "15cec2b750c05bee",
         "type": "tabs",
         "children": [
           {
-            "id": "0698c838f274ec02",
+            "id": "e700045c967921e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "May 17 -  Vertical and Horizontal Navigation.md",
+                "file": "02. Datatype and variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "May 17 -  Vertical and Horizontal Navigation"
-            }
-          },
-          {
-            "id": "6894db665797c3db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "May 24.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "May 24"
+              "title": "02. Datatype and variables"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e408f45d23ba2c26",
+    "id": "6d6bd415299cc324",
     "type": "split",
     "children": [
       {
-        "id": "f84757146453bc1c",
+        "id": "5f167120c27becd9",
         "type": "tabs",
         "children": [
           {
-            "id": "0b5975dc6da99482",
+            "id": "121e21c9a9da7a3b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "a0bac7e32036684f",
+            "id": "3c9b813be427f381",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "4bcfafe9f132b396",
+            "id": "8f5c395139535b4d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 202.5
   },
   "right": {
-    "id": "1e02f70112bf2cfb",
+    "id": "47d04ecc1ae7d5a0",
     "type": "split",
     "children": [
       {
-        "id": "3ec14eeb9ec70323",
+        "id": "ef82f1991dc88155",
         "type": "tabs",
         "children": [
           {
-            "id": "440ad43c6303e89c",
+            "id": "4f23ba1af93a9d64",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "16 May.md",
+                "file": "02. Datatype and variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 16 May"
+              "title": "Backlinks for 02. Datatype and variables"
             }
           },
           {
-            "id": "e0bce8f95be82e97",
+            "id": "172ba8e036adece8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "16 May.md",
+                "file": "02. Datatype and variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 16 May"
+              "title": "Outgoing links from 02. Datatype and variables"
             }
           },
           {
-            "id": "88a18d12790fcc5e",
+            "id": "b62334aa012e1c32",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,7 +137,7 @@
             }
           },
           {
-            "id": "d945b87d289af987",
+            "id": "a1e2dc522870137c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -166,18 +151,18 @@
             }
           },
           {
-            "id": "63226e05db63c78a",
+            "id": "0806ad844695d191",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "16 May.md",
+                "file": "02. Datatype and variables.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 16 May"
+              "title": "Outline of 02. Datatype and variables"
             }
           }
         ]
@@ -198,12 +183,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "6894db665797c3db",
+  "active": "121e21c9a9da7a3b",
   "lastOpenFiles": [
-    "May 17 -  Vertical and Horizontal Navigation.md",
-    "May 24.md",
-    "00. One shot for Missed classes.md",
-    "16 May - Body Semantic Elements.md",
-    "Pasted image 20260516121010.png"
+    "01. JS intro.md",
+    "02. Datatype and variables.md",
+    "02. datatypes and variables"
   ]
 }

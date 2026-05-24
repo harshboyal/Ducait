@@ -1,3 +1,4 @@
-h= "hello there! general kenobi!"
-x = input("enter the value:\n")
-print ( x in h, h.count(x))
+x=25
+y=20
+z = x | y
+print (z)
